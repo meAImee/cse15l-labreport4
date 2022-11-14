@@ -18,7 +18,7 @@ $ vim DocSearchServer.java
 ```
 :%s/start/base/g<Enter>
 ```
-![vimcommand1](https://github.com/meAImee/cse15l-labreport4/blob/main/vimcommand1.png)
+![vimcommand1](https://github.com/meAImee/cse15l-labreport4/raw/main/vimcommand1.png)
 
 * the `:%s` command means search and replace in the whole file
 * `start` means search `start` in the whole document
@@ -27,7 +27,7 @@ $ vim DocSearchServer.java
 
 After typing in the commands, the file **DocSearchServer.java** should look like this:
 
-![vimcommand2](https://github.com/meAImee/cse15l-labreport4/blob/main/vimcommand2.png)
+![vimcommand2](https://github.com/meAImee/cse15l-labreport4/raw/main/vimcommand2.png)
 
 # Part 2: The Two Options of Editing
 
