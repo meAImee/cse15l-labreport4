@@ -35,10 +35,27 @@ After typing in the commands, the file **DocSearchServer.java** should look like
 
 ### Start in VSCode and make the edit there, then scp the file to the remote server and run it there to confirm it works
 
+```
+$ vim DocSearchServer.java
+$ :%s/start/base/g<Enter>
+$ :wq
+$ scp DocSearchServer.java cs15lfa22dn@ieng6.ucsd.edu:~/week6-skill-demo1
+$ javac DocSearchServer.java Server.java
+$ java DocSearchServer 1345
+```
+
 **Time Taken**: 61 seconds
 
+
 ## Option 2:
-### Start already logged into a ssh session. Then, make the edit for the task you chose in Vim, then exit Vim and run bash test.sh
+### Start already logged into a ssh session. Then, make the edit for the task you chose in Vim, then exit Vim and run remotely
+
+```
+$ vim DocSearchServer.java
+$ :%s/start/base/g<Enter>
+$ :wq
+$ java DocSearchServer 1345
+```
 
 **Time Taken**: 63 seconds
 
